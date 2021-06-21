@@ -1,6 +1,6 @@
-import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.flatspec._
 
-class TestQuestion3 extends AnyFlatSpec{
+class TestQuestion3 extends AnyFlatSpec {
+  assert(Question3.Product(1)(2) === 3)
 
-  assert(Question3.product(1)(3)===3)
 }
