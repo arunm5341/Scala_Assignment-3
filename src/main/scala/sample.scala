@@ -1,5 +1,5 @@
-object sample {
-  def main(args: Array[String]): Unit = {
+object sample extends App {
+  
     val  product = (x:Int) => { (y:Int)=>x*y}
   }
-}
+
