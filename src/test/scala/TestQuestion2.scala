@@ -1,4 +1,4 @@
-import Question2._
+
 import org.scalatest.flatspec.AnyFlatSpec
 
 class TestQuestion2 extends AnyFlatSpec{
