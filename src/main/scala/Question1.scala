@@ -1,6 +1,6 @@
 object Question1 extends App {
 
-  var greater = (x: Int, y: Int) =>
+  def greater = (x: Int, y: Int) =>
   {
     if (x > y) x else y
   }
