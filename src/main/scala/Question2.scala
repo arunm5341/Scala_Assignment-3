@@ -12,8 +12,6 @@ def  nextInt= util.Random.nextInt
 
   val tuple = (nextInt, nextInt, nextInt)
 
-  println((tuple, greater))
-  println(maximum(tuple, (x, y) => if (x < y) x else y))
-  println(maximum(tuple, (x, y) => x))
+ 
 
 }
