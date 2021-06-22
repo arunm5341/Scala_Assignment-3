@@ -1,5 +1,5 @@
 object Question2 extends App{
-  val greater = (x: Int, y: Int) => if (x > y) x else y
+  def greater = (x: Int, y: Int) => if (x > y) x else y
 
   def maximum(tuple: (Int, Int, Int), compare: (Int, Int) => Int): Int =
   {
