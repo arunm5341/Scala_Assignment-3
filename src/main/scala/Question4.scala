@@ -4,6 +4,5 @@ object Question4 extends App {
 
   def fzero(x: String, f: String => Unit): String = { f(x); x }
 
-  println(fzero("Hello", s => println(s.reverse)))
 
 }
